@@ -3,9 +3,9 @@ var app = express();
 
 var port = process.env.PORT || 3000
 
-app.use('/js', express.static(__dirname + '/config/script'));
-app.use('/css', express.static(__dirname + '/config/style'));
-app.use('/img', express.static(__dirname + '/config/image'));
+app.use('/js', express.static(__dirname + '/public/config/script'));
+app.use('/css', express.static(__dirname + '/public/config/style'));
+app.use('/img', express.static(__dirname + '/public/config/image'));
 
 app.get('/', (req, res) =>
 
