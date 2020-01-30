@@ -1,0 +1,25 @@
+{
+  "name": "crack",
+  "version": "1.0.0",
+  "description": "Crack hack file",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MkMinhTien/Crack.git"
+  },
+  "keywords": [
+    "Crack"
+  ],
+  "author": "Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MkMinhTien/Crack/issues"
+  },
+  "homepage": "https://github.com/MkMinhTien/Crack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
