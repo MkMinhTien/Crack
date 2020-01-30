@@ -9,11 +9,11 @@ app.use('/img', express.static(__dirname + '/config/image'));
 
 app.get('/', (req, res) =>
 
-    res.sendFile(__dirname + '/public/server.html');
+    res.sendFile(__dirname + '/public/server.html')
 
-)
+);
 
 app.listen(port, () =>
-    console.log(`Website app listening on port ${port}!`);
+    console.log(`Website app listening on port ${port}!`)
 
-)
+);
