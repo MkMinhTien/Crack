@@ -1,0 +1,47 @@
+.email {
+
+    width: 282px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.password {
+
+    width: 282px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+a:hover {
+
+    text-decoration: none;
+
+}
+
+
+#Google-gmail {
+
+    color: red;
+
+}
+
+#Google-password {
+
+    color: red;
+
+}
+
+#Facebook-email {
+
+    color: blue;
+
+}
+
+#Facebook-password {
+
+    color: blue;
+
+}
