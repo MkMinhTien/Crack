@@ -9,7 +9,7 @@ app.use('/img', express.static(__dirname + '/public/config/image'));
 
 app.get('/', (req, res) =>
 
-    res.sendFile(__dirname + '/public/server.html')
+    res.sendFile(__dirname + '/public/server.php')
 
 );
 
